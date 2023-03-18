@@ -1,15 +1,18 @@
 package org.teza.counter.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RequestMapping("/counter")
 @RestController
 public class IndexController {
 
-    @GetMapping("/index")
-    public String index() {
-        return "Index Controlller wooooooorkssss!!!!!!";
+    @PostMapping("/index")
+    public void index(@RequestBody String data) {
+        System.out.println("your data" + data);
+    }
+
+    @GetMapping("/get")
+    public String get(int data) {
+        return "this is your data :)";
     }
 }

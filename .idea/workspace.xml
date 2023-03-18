@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10c6b84-67c1-41aa-b5d4-0224772b945a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CounterService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/CounterServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/org/teza/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GarbageService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage/GarbageServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GarbageService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +66,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/home/acselp/IdeaProjects/MicroservicesAll/GarbageService/src/main/java/org/teza/garbage",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "spring.configuration.checksum": "b3ee1236fb0932e9e4be5c2fdae1d17a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -84,8 +92,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer">
-    <configuration name="CounterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.GarbageServiceApplication">
+    <configuration name="CounterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="CounterService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.teza.counter.CounterServiceApplication" />
       <method v="2">
@@ -99,10 +107,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GarbageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="GarbageService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.teza.garbage.GarbageServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.teza.garbage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.CounterServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.GarbageServiceApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GarbageServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,6 +143,13 @@
       <workItem from="1676464631550" duration="6035000" />
       <workItem from="1676471008186" duration="1030000" />
       <workItem from="1676479050597" duration="4707000" />
+      <workItem from="1676544674530" duration="811000" />
+      <workItem from="1677660569417" duration="945000" />
+      <workItem from="1678728117203" duration="858000" />
+      <workItem from="1678732945109" duration="1198000" />
+      <workItem from="1679047635075" duration="2997000" />
+      <workItem from="1679055858606" duration="1590000" />
+      <workItem from="1679129772300" duration="5053000" />
     </task>
     <servers />
   </component>
@@ -124,5 +158,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
