@@ -1,6 +1,5 @@
 package org.teza.api_gateway;
 
-
 import com.netflix.discovery.EurekaNamespace;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

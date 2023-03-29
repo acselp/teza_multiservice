@@ -9,28 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.ClientResponse;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
-
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("/")
 public class IndexController {
 
-
-    @Autowired
-    WebClient.Builder webClient;
-
-
     @GetMapping("/")
-    public String get() throws ExecutionException, InterruptedException {
-
-        ClientResponse res = webClient.build().get()
-                .uri("http://localhost:8080/COUNTER-SERVICE")
-                .exchange()
-                .toFuture()
-                .get();
+    public String get() {
+        String res = "i there this is garbage service";
 
         return res;
     }
