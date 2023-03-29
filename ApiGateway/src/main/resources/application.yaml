@@ -1,0 +1,51 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: counter-service
+          uri: lb://counter-service
+          predicates:
+            - "Path=/api/counter/**"
+
+        - id: garbage-service
+          uri: lb://garbage-service
+          predicates:
+            - "Path=/api/garbage/**"
+
+        - id: discovery-server
+          uri: http://localhost:8761
+          filters:
+          - SetPath=/
+          predicates:
+          - Path=/eureka/web
+
+
+        - id: discovery-server-static
+          predicates:
+          - Path=/eureka/**
+          uri: http://localhost:8761
+
+
+
+  application:
+    name: api-gateway
+  main:
+    web-application-type: reactive
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway:
+            route:
+              RouteDefinitionRouteLocator: INFO
+            nodeValue: TRACE
+    root: INFO
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8761/eureka"

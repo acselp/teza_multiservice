@@ -4,4 +4,8 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 
+spring:
+  application:
+    name: "discovery-service"
+
 server.port: 8761
