@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10c6b84-67c1-41aa-b5d4-0224772b945a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teza.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/exceptions/RoleNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/repositories/RoleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/org/teza/api_gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/org/teza/api_gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CounterService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/CounterServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/CounterServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GarbageService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GarbageService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GarbageService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GarbageService/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/UserRole.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

@@ -46,7 +46,7 @@ public class UserController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public void addUser(@PathVariable int id) {
+    public void deleteUser(@PathVariable int id) {
         _userRepo.deleteById(id);
     }
 }

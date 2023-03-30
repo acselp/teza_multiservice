@@ -11,6 +11,9 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import reactor.util.annotation.NonNullApi;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Getter
 @Setter
@@ -19,6 +22,15 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     private int id;
+
+    @ManyToMany
+    @JoinTable(
+            name = "user_role",
+            joinColumns = @JoinColumn(name="role_id"),
+            inverseJoinColumns = @JoinColumn(name = "student_id")
+    )
+    @Column(nullable = false)
+    private Set<Role> userRoles = new HashSet<>();
 
     @Column(nullable = false)
     private String fname;
@@ -42,4 +54,8 @@ public class User {
     @Column(nullable = false)
     @UpdateTimestamp
     private java.util.Date updatedAt;
+
+    public void addRole(Role role) {
+        userRoles.add(role);
+    }
 }
