@@ -2,11 +2,11 @@ spring:
   datasource:
 
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/teza
+    url: jdbc:mysql://localhost:3306/water
     password: root
     username: my_secret_password
   application:
-    name: counter-service
+    name: water-service
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -16,7 +16,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 
 server:
-  port: 0
+  port: 8086
 eureka:
   client:
     serviceUrl:

@@ -18,11 +18,11 @@
 
 
   <modules>
-    <module>CounterService</module>
     <module>EurekaServer</module>
     <module>GarbageService</module>
     <module>ApiGateway</module>
     <module>UserService</module>
+    <module>WaterService</module>
   </modules>
 
   <properties>

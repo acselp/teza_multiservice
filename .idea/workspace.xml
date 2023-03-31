@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10c6b84-67c1-41aa-b5d4-0224772b945a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/exceptions/RoleNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Conectat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/WaterServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/controllers/WaterCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/models/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/java/org/teza/water/models/WaterCostumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaterService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/CounterServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/java/org/teza/counter/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterService/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/teza/user/models/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +78,9 @@
       <recent name="C:\Users\Virgiliu\IdeaProjects\teza_multiservice\UserService\src" />
       <recent name="$PROJECT_DIR$/GarbageService/src/main/java/org/teza/garbage" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.teza.water.models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -73,7 +90,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Application.WaterService">
     <configuration name="ApiGateway" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -113,6 +130,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaterService" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.teza.water.WaterServiceApplication" />
+      <module name="WaterService" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +212,7 @@
       <item itemvalue="Application.CounterService" />
       <item itemvalue="Application.EurekaService" />
       <item itemvalue="Application.GarbageService" />
+      <item itemvalue="Application.WaterService" />
       <item itemvalue="Application.UserServiceApplication" />
     </list>
     <recent_temporary>
